@@ -1,7 +1,6 @@
 
-<p align="center">
-    <b>MazeRunner: Maze Creation and Solving</b>
-</p>
+<h1 align="center">MazeRunner: Maze Creation and Solving</h1>
+
 <p align="center">
     <a href="https://github.com/Ori2846/MazeRunner/releases">
         <img src="https://img.shields.io/github/release/Ori2846/MazeRunner.svg?style=flat&color=success" alt="Version"/>
@@ -16,72 +15,95 @@
         <img src="https://img.shields.io/github/last-commit/Ori2846/MazeRunner.svg?style=flat&color=blue" alt="GitHub last commit"/>
     </a>
 </p>
-Overview
+
+## Overview
+
 MazeRunner is a demo project for creating and solving mazes using SFML (Simple and Fast Multimedia Library) in C++. This project demonstrates the process of generating a maze and solving it using the A* algorithm, with real-time visualizations.
 
-Demo Videos
-Creating the Maze: Watch the demo of the maze generation process.
+## Demo Videos
 
-https://github.com/Ori2846/MazeRunner/assets/74078771/357434b6-adc8-467e-8991-6b765eda1d0f
+### Creating the Maze
+Watch the demo of the maze generation process:
 
-Solving the Maze: Watch the demo of the maze-solving process.
+[![Maze Generation](https://img.youtube.com/vi/357434b6-adc8-467e-8991-6b765eda1d0f/0.jpg)](https://github.com/Ori2846/MazeRunner/assets/74078771/357434b6-adc8-467e-8991-6b765eda1d0f)
 
-https://github.com/Ori2846/MazeRunner/assets/74078771/78f79420-4194-460c-a2dc-5ff61e752f18
+### Solving the Maze
+Watch the demo of the maze-solving process:
 
-Features
-Maze Generation: Randomly generates a maze using a depth-first search algorithm.
-Maze Solving: Solves the maze using the A* search algorithm.
-Real-time Visualization: Provides real-time visualization of the maze generation and solving processes using SFML.
-User Interaction: Allows user to navigate the maze using keyboard controls.
-Technologies Used
-C++: Core programming language.
-SFML: Library for graphics, window, and event handling.
-Standard Library: Includes algorithms, containers, and utility functions for maze and pathfinding logic.
-Getting Started
-Prerequisites
-SFML library installed on your system. You can download it from SFML's official website.
-Installation
+[![Maze Solving](https://img.youtube.com/vi/78f79420-4194-460c-a2dc-5ff61e752f18/0.jpg)](https://github.com/Ori2846/MazeRunner/assets/74078771/78f79420-4194-460c-a2dc-5ff61e752f18)
+
+## Features
+
+- **Maze Generation**: Randomly generates a maze using a depth-first search algorithm.
+- **Maze Solving**: Solves the maze using the A* search algorithm.
+- **Real-time Visualization**: Provides real-time visualization of the maze generation and solving processes using SFML.
+- **User Interaction**: Allows user to navigate the maze using keyboard controls.
+
+## Technologies Used
+
+- **C++**: Core programming language.
+- **SFML**: Library for graphics, window, and event handling.
+- **Standard Library**: Includes algorithms, containers, and utility functions for maze and pathfinding logic.
+
+## Getting Started
+
+### Prerequisites
+
+- SFML library installed on your system. You can download it from [SFML's official website](https://www.sfml-dev.org/download.php).
+
+### Installation
+
 Clone the repository:
-
-sh
-Copy code
+```sh
 git clone https://github.com/Ori2846/MazeRunner.git
 cd MazeRunner
-Set up your development environment to include and link against SFML. Instructions can be found here.
+```
+
+Set up your development environment to include and link against SFML. Instructions can be found [here](https://www.sfml-dev.org/tutorials/2.5/start-linux.php).
 
 Build the project:
-
-sh
-Copy code
+```sh
 g++ -o MazeRunner main.cpp -lsfml-graphics -lsfml-window -lsfml-system
-Run the executable:
+```
 
-sh
-Copy code
+Run the executable:
+```sh
 ./MazeRunner
-Usage
-W: Move up
-A: Move left
-S: Move down
-D: Move right
-How It Works
-Maze Generation
+```
+
+## Usage
+
+- **W**: Move up
+- **A**: Move left
+- **S**: Move down
+- **D**: Move right
+
+## How It Works
+
+### Maze Generation
+
 The maze is generated using a depth-first search (DFS) algorithm. The process is visualized in real-time, showing the path being carved out through the grid.
 
-Maze Solving
+### Maze Solving
+
 The maze is solved using the A* algorithm, which finds the shortest path from the start to the exit. The process is also visualized, showing the exploration and pathfinding steps.
 
-Contributing
+## Contributing
+
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-Project Updates
-Real-time Visualization: Implemented real-time updates for maze generation and solving processes.
-User Interaction: Added keyboard controls for navigating the maze.
-Enhanced Pathfinding: Improved the A* algorithm for better performance and visualization.
-Contact
-For any questions or feedback, please contact Ori2846.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Project Updates
+
+- **Real-time Visualization**: Implemented real-time updates for maze generation and solving processes.
+- **User Interaction**: Added keyboard controls for navigating the maze.
+- **Enhanced Pathfinding**: Improved the A* algorithm for better performance and visualization.
+
+## Contact
+
+For any questions or feedback, please contact [Ori2846](https://github.com/Ori2846).
 
 Enjoy navigating the maze with MazeRunner! 🚀
